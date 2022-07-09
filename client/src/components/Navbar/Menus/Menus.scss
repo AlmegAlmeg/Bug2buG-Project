@@ -1,0 +1,12 @@
+.menu{
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    font-size: var(--textSize);
+    li{
+        a{
+            text-decoration: none;
+            color: var(--black);
+        }
+    }
+}

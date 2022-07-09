@@ -1,0 +1,20 @@
+.custom-input{
+    display: flex;
+    flex-direction: column;
+    font-size: var(--textSize);
+    label{
+        color: var(--black);
+    }
+    input{
+        display: block;
+        padding: .3rem 1rem;
+        color: var(--black);
+        font-size: var(--textSize);
+        border-radius: 1rem;
+        border: none;
+    }
+    .error{
+        color: var(--error);
+        font-size: 1.2rem;
+    }
+}

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Mukta&display=swap');
+
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+    color: var(--white);
+}
+
+:root{
+    --white: rgb(230, 230, 230);
+    --fadedWhite: rgba(253, 255, 255, 0.7);
+    --lightGrey: rgb(200, 200, 200);
+    --grey: rgb(133, 133, 133);
+    --black: rgb(18, 18, 18);
+
+    --primary: rgb(237, 250, 52);
+    --secondary: rgb(44, 83, 100);
+
+    --error: rgb(255, 22, 22);
+
+    // Bugs
+    --critical: rgb(190, 0, 0);
+    --important: rgb(229, 134, 0);
+    --normal: rgb(0, 226, 230);
+    --minor: rgb(0, 235, 16);
+
+    --headFont: 'Anton', sans-serif;
+    --headSize: clamp(1.7rem, 3vw, 3.2rem);
+    --textSize: clamp(1rem, 2.2vw, 1.5rem);
+}
+
+body{
+    background: linear-gradient(160deg, #0F2027, #2C5364 70%);
+}
+
+main{
+    min-height: 93vh;
+    max-width: 1400px;
+    margin: auto;
+    padding: 1rem;
+    margin-top: 7vh;
+}

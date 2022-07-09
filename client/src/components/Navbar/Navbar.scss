@@ -1,0 +1,25 @@
+header{
+    background-color: var(--fadedWhite);
+    box-shadow: 0 0 5px var(--black);
+    position: fixed;
+    min-width: 100vw;
+    top: 0;
+    z-index: 100;
+    .site-navbar{
+        height: 7vh;
+        padding: 0 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .site-logo{
+            font-size: var(--headSize);
+            a{
+                font-family: var(--headFont);
+                font-weight: normal;
+                letter-spacing: 1px;
+                color: var(--black);
+                text-decoration: none;
+            }
+        }
+    }
+}

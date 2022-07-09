@@ -1,0 +1,31 @@
+.login-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    margin: 0 1rem;
+    form{
+        min-width: 30vw;
+        background-color: var(--fadedWhite);
+        padding: clamp(0rem, 5vw, 3rem);
+        border-radius: 1rem;
+        display: grid;
+        justify-content: center;
+        gap: 1rem;
+        text-align: center;
+        h3{
+            font-family: var(--headFont);
+            font-weight: normal;
+            font-size: var(--headSize);
+            color: var(--primary);
+        }
+        .submit-btn{
+            margin-top: 1.5rem;
+            background-color: var(--secondary);
+            font-size: var(--textSize);
+            border: none;
+            border-radius: 1rem;
+            cursor: pointer;
+        }
+    }
+}
